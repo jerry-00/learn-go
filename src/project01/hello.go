@@ -8,8 +8,8 @@ import "fmt"
 //编译 build hello.go 生成可执行文件
 //在Windows下编译生成指定运行文件 go build -o xxx.exe xxx.go linux 可直接go run 编译运行
 //与java不同每一行后面不需要加分号 go是一行一行编译 不要把多条语句放一起写
-/**
-注意事项
+/*
+注意事项 go官方推荐使用行注释
 */
 func main() {
 	fmt.Println("hello,world!")
